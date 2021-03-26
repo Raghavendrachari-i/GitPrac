@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[executed test3]]>
+    </line>
+    <line>
+      <![CDATA[executed test5]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-03-24T18:14:14 IST" name="Suite2" finished-at="2021-03-24T18:15:27 IST" duration-ms="72943">
+    <groups>
+      <group name="StartPage">
+        <method signature="Test1.test1()[pri:1, instance:TestNgXmlInteraction.Test1@124c278f]" name="test1" class="TestNgXmlInteraction.Test1"/>
+      </group> <!-- StartPage -->
+      <group name="Checkin">
+        <method signature="Test1.test3()[pri:3, instance:TestNgXmlInteraction.Test1@124c278f]" name="test3" class="TestNgXmlInteraction.Test1"/>
+        <method signature="Test1.test4()[pri:0, instance:TestNgXmlInteraction.Test1@124c278f]" name="test4" class="TestNgXmlInteraction.Test1"/>
+        <method signature="Test1.test5()[pri:4, instance:TestNgXmlInteraction.Test1@124c278f]" name="test5" class="TestNgXmlInteraction.Test1"/>
+      </group> <!-- Checkin -->
+      <group name="TestPage">
+        <method signature="Test1.test2()[pri:2, instance:TestNgXmlInteraction.Test1@124c278f]" name="test2" class="TestNgXmlInteraction.Test1"/>
+      </group> <!-- TestPage -->
+    </groups>
+    <test started-at="2021-03-24T18:14:14 IST" name="Test2" finished-at="2021-03-24T18:15:27 IST" duration-ms="72943">
+      <class name="TestNgXmlInteraction.Test1">
+        <test-method is-config="true" signature="BrowserInvoke()[pri:0, instance:TestNgXmlInteraction.Test1@124c278f]" started-at="2021-03-24T18:14:14 IST" name="BrowserInvoke" finished-at="2021-03-24T18:14:19 IST" duration-ms="5193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserInvoke -->
+        <test-method signature="test1()[pri:1, instance:TestNgXmlInteraction.Test1@124c278f]" started-at="2021-03-24T18:14:19 IST" name="test1" finished-at="2021-03-24T18:14:25 IST" duration-ms="5820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:TestNgXmlInteraction.Test1@124c278f]" started-at="2021-03-24T18:14:25 IST" name="QuitBrowser" finished-at="2021-03-24T18:14:26 IST" duration-ms="771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="BrowserInvoke()[pri:0, instance:TestNgXmlInteraction.Test1@124c278f]" started-at="2021-03-24T18:14:26 IST" name="BrowserInvoke" finished-at="2021-03-24T18:14:30 IST" duration-ms="4095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserInvoke -->
+        <test-method signature="test2()[pri:2, instance:TestNgXmlInteraction.Test1@124c278f]" started-at="2021-03-24T18:14:30 IST" name="test2" finished-at="2021-03-24T18:14:34 IST" duration-ms="4184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:TestNgXmlInteraction.Test1@124c278f]" started-at="2021-03-24T18:14:34 IST" name="QuitBrowser" finished-at="2021-03-24T18:14:35 IST" duration-ms="721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="BrowserInvoke()[pri:0, instance:TestNgXmlInteraction.Test1@124c278f]" started-at="2021-03-24T18:14:35 IST" name="BrowserInvoke" finished-at="2021-03-24T18:14:39 IST" duration-ms="4032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserInvoke -->
+        <test-method signature="test3()[pri:3, instance:TestNgXmlInteraction.Test1@124c278f]" started-at="2021-03-24T18:14:39 IST" name="test3" finished-at="2021-03-24T18:14:46 IST" duration-ms="6979" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[executed test3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:TestNgXmlInteraction.Test1@124c278f]" started-at="2021-03-24T18:14:46 IST" name="QuitBrowser" finished-at="2021-03-24T18:14:47 IST" duration-ms="947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="BrowserInvoke()[pri:0, instance:TestNgXmlInteraction.Test1@124c278f]" started-at="2021-03-24T18:14:47 IST" name="BrowserInvoke" finished-at="2021-03-24T18:14:51 IST" duration-ms="4059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserInvoke -->
+        <test-method signature="test4()[pri:0, instance:TestNgXmlInteraction.Test1@124c278f]" started-at="2021-03-24T18:14:51 IST" name="test4" finished-at="2021-03-24T18:15:11 IST" depends-on-methods="TestNgXmlInteraction.Test1.test3" duration-ms="20700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:TestNgXmlInteraction.Test1@124c278f]" started-at="2021-03-24T18:15:11 IST" name="QuitBrowser" finished-at="2021-03-24T18:15:12 IST" duration-ms="840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="BrowserInvoke()[pri:0, instance:TestNgXmlInteraction.Test1@124c278f]" started-at="2021-03-24T18:15:12 IST" name="BrowserInvoke" finished-at="2021-03-24T18:15:16 IST" duration-ms="4248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserInvoke -->
+        <test-method signature="test5()[pri:4, instance:TestNgXmlInteraction.Test1@124c278f]" started-at="2021-03-24T18:15:16 IST" name="test5" finished-at="2021-03-24T18:15:24 IST" duration-ms="7531" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[executed test5]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:TestNgXmlInteraction.Test1@124c278f]" started-at="2021-03-24T18:15:24 IST" name="QuitBrowser" finished-at="2021-03-24T18:15:27 IST" duration-ms="2747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+      </class> <!-- TestNgXmlInteraction.Test1 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite2 -->
+</testng-results>

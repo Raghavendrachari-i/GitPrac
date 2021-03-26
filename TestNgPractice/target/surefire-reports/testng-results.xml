@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="6" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-24T19:52:49 IST" name="Suite1" finished-at="2021-03-24T19:53:38 IST" duration-ms="48589">
+    <groups>
+    </groups>
+    <test started-at="2021-03-24T19:52:49 IST" name="Test1" finished-at="2021-03-24T19:53:38 IST" duration-ms="48589">
+      <class name="TestNgXmlInteraction.ParameterTest">
+        <test-method signature="BrowserInvoke()[pri:1, instance:TestNgXmlInteraction.ParameterTest@145eaa29]" started-at="2021-03-24T19:52:49 IST" name="BrowserInvoke" finished-at="2021-03-24T19:52:54 IST" duration-ms="5192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserInvoke -->
+        <test-method signature="getUrl()[pri:2, instance:TestNgXmlInteraction.ParameterTest@145eaa29]" started-at="2021-03-24T19:52:54 IST" name="getUrl" finished-at="2021-03-24T19:53:02 IST" duration-ms="8053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="parameter(java.lang.String)[pri:3, instance:TestNgXmlInteraction.ParameterTest@145eaa29]" started-at="2021-03-24T19:53:02 IST" name="parameter" finished-at="2021-03-24T19:53:05 IST" duration-ms="2109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[java]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parameter -->
+        <test-method signature="ClickSearch()[pri:4, instance:TestNgXmlInteraction.ParameterTest@145eaa29]" started-at="2021-03-24T19:53:05 IST" name="ClickSearch" finished-at="2021-03-24T19:53:35 IST" duration-ms="30423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickSearch -->
+        <test-method signature="QuitBrowser()[pri:6, instance:TestNgXmlInteraction.ParameterTest@145eaa29]" started-at="2021-03-24T19:53:35 IST" name="QuitBrowser" finished-at="2021-03-24T19:53:38 IST" duration-ms="2748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+      </class> <!-- TestNgXmlInteraction.ParameterTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
